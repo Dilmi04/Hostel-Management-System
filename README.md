@@ -12,64 +12,54 @@
 
 A web-based system designed to help administrators and students manage hostel operations efficiently.
 
-##📌 Overview
+📌 **Overview**
 
 This project provides a digital solution for managing rooms, student information, payments, complaints, and announcements.
 It is suitable for university assignments and portfolio projects.
 
-##🔧 Features
-Admin Panel
+🔧 **Features**
+- Admin Panel
 
-Add, edit, and delete rooms
+- Add, edit, and delete rooms
 
-Manage student profiles
+- Manage student profiles
 
-Assign rooms
+- Assign rooms
 
-View payment history
+- View payment history
 
-Manage complaints
+- Manage complaints
 
-Track monthly expenses
+- Track monthly expenses
 
-Post announcements
+- Post announcements
 
-Dashboard with basic statistics
+- Dashboard with basic statistics
 
-Student Panel
+- Student Panel
 
-Register and log in
+- Register and log in
 
-View room details
+- View room details
 
-Submit complaints
+- Submit complaints
 
-View payment history
+- View payment history
 
-Download payment receipts
+- Download payment receipts
 
-View announcements
+- View announcements
 
-Update profile
+- Update profile
 
-##🛠️ Tech Stack
-Frontend
+🛠️ **Tech Stack**
+- Frontend - HTML,CSS,Bootstrap,JavaScript
 
-HTML
+- Backend - PHP
 
-CSS
+- Dtabase - MySQL
 
-Bootstrap
-
-JavaScript
-
-Backend
-
-PHP
-
-MySQL
-
-##📁 Project Structure
+📁 **Project Structure**
 ```
 /hostel-management-system
 │── /admin
@@ -106,7 +96,7 @@ MySQL
 │── README.md
 ```
 
-##🔮 Future Improvements
+🔮 **Future Improvements**
 
 - Email/SMS notifications
 
