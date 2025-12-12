@@ -12,12 +12,12 @@
 
 A web-based system designed to help administrators and students manage hostel operations efficiently.
 
-📌 Overview
+##📌 Overview
 
 This project provides a digital solution for managing rooms, student information, payments, complaints, and announcements.
 It is suitable for university assignments and portfolio projects.
 
-🔧 Features
+##🔧 Features
 Admin Panel
 
 Add, edit, and delete rooms
@@ -52,7 +52,7 @@ View announcements
 
 Update profile
 
-🛠️ Tech Stack
+##🛠️ Tech Stack
 Frontend
 
 HTML
@@ -69,20 +69,51 @@ PHP
 
 MySQL
 
-📁 Project Structure
+##📁 Project Structure
+```
+/hostel-management-system
+│── /admin
+│   ├── dashboard.php
+│   ├── manage_rooms.php
+│   ├── manage_students.php
+│   ├── room_assign.php
+│   ├── payments.php
+│   ├── complaints.php
+│   ├── expenses.php
+│   └── announcements.php
+│
+│── /student
+│   ├── dashboard.php
+│   ├── my_room.php
+│   ├── complaints.php
+│   ├── payments.php
+│   └── profile.php
+│
+│── /assets
+│   ├── css/
+│   ├── js/
+│   └── images/
+│
+│── /includes
+│   ├── config.php
+│   ├── db.php
+│   ├── auth.php
+│   └── functions.php
+│
+│── index.php
+│── login.php
+│── register.php
+│── README.md
+```
 
-This version displays properly on GitHub:
+##🔮 Future Improvements
 
-<pre> hostel-management-system/ ├── admin/ │ ├── dashboard.php │ ├── manage_rooms.php │ ├── manage_students.php │ ├── room_assign.php │ ├── payments.php │ ├── complaints.php │ ├── expenses.php │ └── announcements.php │ ├── student/ │ ├── dashboard.php │ ├── my_room.php │ ├── complaints.php │ ├── payments.php │ └── profile.php │ ├── assets/ │ ├── css/ │ ├── js/ │ └── images/ │ ├── includes/ │ ├── config.php │ ├── db.php │ ├── auth.php │ └── functions.php │ ├── index.php ├── login.php ├── register.php └── README.md </pre>
+- Email/SMS notifications
 
-🔮 Future Improvements
+- Online payment gateway
 
-Email/SMS notifications
+- Better UI using Bootstrap 5
 
-Online payment gateway
+- Mobile responsive layout
 
-Better UI using Bootstrap 5
-
-Mobile responsive layout
-
-Automatic room allocation (simple algorithm)
+- Automatic room allocation (simple algorithm)
