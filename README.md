@@ -1,99 +1,88 @@
 # 🏠Hostel-Management-System
+<p align="center">
 
-A simple and powerful web-based system to manage hostel/boarding house operations efficiently.
 
-🎯 Overview
 
-The Hostel Management System is a web application designed to simplify hostel administration and improve student experience.
-Admins can manage rooms, students, payments, and complaints, while students can view their room details, make requests, and check their payment history.
 
-This project is ideal for university coursework and portfolio building.
 
-🎨 Features
-👨‍💼 Admin Panel
 
-➕ Add / Edit / Delete rooms
 
-🧑‍🎓 Manage students
 
-🛏️ Assign rooms
+</p>
 
-💳 Track monthly payments
+A web-based system designed to help administrators and students manage hostel operations efficiently.
 
-📢 Post announcements
+📌 Overview
 
-📝 Handle complaints
+This project provides a digital solution for managing rooms, student information, payments, complaints, and announcements.
+It is suitable for university assignments and portfolio projects.
 
-💰 Manage hostel expenses
+🔧 Features
+Admin Panel
 
-📊 Analytics dashboard (occupancy, revenue, complaints)
+Add, edit, and delete rooms
 
-👩‍🎓 Student Panel
+Manage student profiles
 
-🔐 Register & login
+Assign rooms
 
-🏠 View room details
+View payment history
 
-📩 Submit complaints
+Manage complaints
 
-💵 View payment history
+Track monthly expenses
 
-📥 Download receipts
+Post announcements
 
-📰 Read announcements
+Dashboard with basic statistics
 
-👤 Manage profile
+Student Panel
+
+Register and log in
+
+View room details
+
+Submit complaints
+
+View payment history
+
+Download payment receipts
+
+View announcements
+
+Update profile
 
 🛠️ Tech Stack
 Frontend
+
 HTML
+
 CSS
+
 Bootstrap
+
 JavaScript
 
 Backend
+
 PHP
+
 MySQL
 
 📁 Project Structure
-/hostel-management-system
-│── /admin
-│   ├── dashboard.php
-│   ├── manage_rooms.php
-│   ├── manage_students.php
-│   ├── room_assign.php
-│   ├── payments.php
-│   ├── complaints.php
-│   ├── expenses.php
-│   └── announcements.php
-│
-│── /student
-│   ├── dashboard.php
-│   ├── my_room.php
-│   ├── complaints.php
-│   ├── payments.php
-│   └── profile.php
-│
-│── /assets
-│   ├── css/
-│   ├── js/
-│   └── images/
-│
-│── /includes
-│   ├── config.php
-│   ├── db.php
-│   ├── auth.php
-│   └── functions.php
-│
-│── index.php
-│── login.php
-│── register.php
-│── README.md
 
-🚀 Future Improvements
+This version displays properly on GitHub:
 
-🔔 Email/SMS notifications
-📱 Mobile responsive redesign
-🤖 Auto room allocation algorithm
-💳 Online payment gateway
-📊 Advanced analytics
+<pre> hostel-management-system/ ├── admin/ │ ├── dashboard.php │ ├── manage_rooms.php │ ├── manage_students.php │ ├── room_assign.php │ ├── payments.php │ ├── complaints.php │ ├── expenses.php │ └── announcements.php │ ├── student/ │ ├── dashboard.php │ ├── my_room.php │ ├── complaints.php │ ├── payments.php │ └── profile.php │ ├── assets/ │ ├── css/ │ ├── js/ │ └── images/ │ ├── includes/ │ ├── config.php │ ├── db.php │ ├── auth.php │ └── functions.php │ ├── index.php ├── login.php ├── register.php └── README.md </pre>
+
+🔮 Future Improvements
+
+Email/SMS notifications
+
+Online payment gateway
+
+Better UI using Bootstrap 5
+
+Mobile responsive layout
+
+Automatic room allocation (simple algorithm)
